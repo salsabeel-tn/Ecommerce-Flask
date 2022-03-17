@@ -9,4 +9,6 @@ app.config['SECRET_KEY'] = '2c1ddf0cd19ab34f7bf1d59f' #CSRF TOKEN for the form
 db = SQLAlchemy(app)  #creating a db instance
 bcrypt = Bcrypt(app)  #producing hashes for passwords to be stored in db
 login_manager = LoginManager(app)
+login_manager.login_view = "login_page"
+login_manager.login_message_category = "info"
 from market import routes
