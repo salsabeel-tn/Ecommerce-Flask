@@ -5,7 +5,7 @@
   </style>
   
   <!-- More Info -->
-  <div class="modal fade" id="Modal-MoreInfo-{{ item.id }}"
+  <div class="modal fade" id="Modal-MoreInfo-{{ items.id }}"
        tabindex="-1"
        aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -13,7 +13,7 @@
         <div class="modal-header">
           <h5 class="modal-title" id="ModalLabel">
             <!-- -->
-            {{ item.name }}
+            {{ items.name }}
           </h5>
           <button type="button" class="close"
                   data-dismiss="modal" aria-label="Close">
@@ -21,7 +21,7 @@
           </button>
         </div>
         <div class="modal-body">
-          {{ item.description }}
+          {{ items.description }}
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary"
@@ -33,7 +33,7 @@
   </div>
   
   <!-- Purchase Confirm -->
-  <div class="modal fade" id="Modal-PurchaseConfirm-{{ item.id }}"
+  <div class="modal fade" id="Modal-PurchaseConfirm-{{ items.id }}"
        tabindex="-1"
        aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -41,7 +41,7 @@
         <div class="modal-header">
           <h5 class="modal-title" id="ModalLabel">
             <!-- -->
-            {{ item.name }}
+            {{ items.name }}
           </h5>
           <button type="button" class="close"
                   data-dismiss="modal" aria-label="Close">
@@ -49,7 +49,7 @@
           </button>
         </div>
         <div class="modal-body">
-          Are you sure you want to buy {{ item.name }} for {{ item.price }}$ ?
+          Are you sure you want to buy {{ items.name }} for {{ items.price }}$ ?
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary"
