@@ -1,7 +1,7 @@
 # Ecommerce-Flask
  This is an ecommerce website built using Flask, HTML and CSS
  
-<br>
+
 ## Website features:<br>
 1) sign in as a new user<br>
 2) login in a a registered user<br>
