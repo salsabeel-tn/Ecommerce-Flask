@@ -1,5 +1,5 @@
 # Ecommerce-Flask
- This is an ecommerce website built using Flask, HTML and CSS
+ This is an e-commerce website built using Flask, HTML and CSS (Jinja), and SQLite for the database
  
 
 ## Website features:<br>
